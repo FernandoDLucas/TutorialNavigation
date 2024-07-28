@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TutorialNavigationApp: App {
+    
+    var navigationPath = NavigationCompass()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(compass: navigationPath)
         }
     }
+
 }

@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EC082AA32C2E0B8000A301E2 /* TutorialNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC082AA22C2E0B8000A301E2 /* TutorialNavigationApp.swift */; };
-		EC082AA52C2E0B8000A301E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC082AA42C2E0B8000A301E2 /* ContentView.swift */; };
 		EC082AA72C2E0B8200A301E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC082AA62C2E0B8200A301E2 /* Assets.xcassets */; };
 		EC082AAB2C2E0B8200A301E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC082AAA2C2E0B8200A301E2 /* Preview Assets.xcassets */; };
 		EC082AB52C2E0B8200A301E2 /* TutorialNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC082AB42C2E0B8200A301E2 /* TutorialNavigationTests.swift */; };
 		EC082ABF2C2E0B8200A301E2 /* TutorialNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC082ABE2C2E0B8200A301E2 /* TutorialNavigationUITests.swift */; };
 		EC082AC12C2E0B8200A301E2 /* TutorialNavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC082AC02C2E0B8200A301E2 /* TutorialNavigationUITestsLaunchTests.swift */; };
+		EC52D7272C3EC74400063316 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = EC52D7262C3EC74400063316 /* Animals.json */; };
+		ECCBD4992C5586A7008684F4 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4982C5586A7008684F4 /* Island.swift */; };
+		ECCBD49C2C5586DF008684F4 /* NavigationCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD49B2C5586DF008684F4 /* NavigationCompass.swift */; };
+		ECCBD49E2C5586F5008684F4 /* NavigationRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD49D2C5586F5008684F4 /* NavigationRoot.swift */; };
+		ECCBD4A12C55870F008684F4 /* SomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4A02C55870F008684F4 /* SomeCoordinatorProtocol.swift */; };
+		ECCBD4A42C558726008684F4 /* SomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4A32C558726008684F4 /* SomeCoordinator.swift */; };
+		ECCBD4A62C55873B008684F4 /* IslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4A52C55873B008684F4 /* IslandView.swift */; };
+		ECCBD4A92C55875A008684F4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4A82C55875A008684F4 /* ContentViewModel.swift */; };
+		ECCBD4AB2C55876A008684F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4AA2C55876A008684F4 /* ContentView.swift */; };
+		ECCBD4AD2C55877F008684F4 /* HashableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCBD4AC2C55877F008684F4 /* HashableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		EC082A9F2C2E0B8000A301E2 /* TutorialNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC082AA22C2E0B8000A301E2 /* TutorialNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialNavigationApp.swift; sourceTree = "<group>"; };
-		EC082AA42C2E0B8000A301E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC082AA62C2E0B8200A301E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC082AA82C2E0B8200A301E2 /* TutorialNavigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TutorialNavigation.entitlements; sourceTree = "<group>"; };
 		EC082AAA2C2E0B8200A301E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		EC082ABA2C2E0B8200A301E2 /* TutorialNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC082ABE2C2E0B8200A301E2 /* TutorialNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialNavigationUITests.swift; sourceTree = "<group>"; };
 		EC082AC02C2E0B8200A301E2 /* TutorialNavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialNavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC52D7262C3EC74400063316 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
+		ECCBD4982C5586A7008684F4 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		ECCBD49B2C5586DF008684F4 /* NavigationCompass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCompass.swift; sourceTree = "<group>"; };
+		ECCBD49D2C5586F5008684F4 /* NavigationRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRoot.swift; sourceTree = "<group>"; };
+		ECCBD4A02C55870F008684F4 /* SomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		ECCBD4A32C558726008684F4 /* SomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeCoordinator.swift; sourceTree = "<group>"; };
+		ECCBD4A52C55873B008684F4 /* IslandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandView.swift; sourceTree = "<group>"; };
+		ECCBD4A82C55875A008684F4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		ECCBD4AA2C55876A008684F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECCBD4AC2C55877F008684F4 /* HashableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,12 @@
 		EC082AA12C2E0B8000A301E2 /* TutorialNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				ECCBD4A72C55874E008684F4 /* Module A */,
+				ECCBD49F2C558702008684F4 /* Module B */,
+				ECCBD49A2C5586CA008684F4 /* Navigation */,
+				ECCBD4972C55869E008684F4 /* Entities */,
+				EC52D7262C3EC74400063316 /* Animals.json */,
 				EC082AA22C2E0B8000A301E2 /* TutorialNavigationApp.swift */,
-				EC082AA42C2E0B8000A301E2 /* ContentView.swift */,
 				EC082AA62C2E0B8200A301E2 /* Assets.xcassets */,
 				EC082AA82C2E0B8200A301E2 /* TutorialNavigation.entitlements */,
 				EC082AA92C2E0B8200A301E2 /* Preview Content */,
@@ -127,6 +149,51 @@
 				EC082AC02C2E0B8200A301E2 /* TutorialNavigationUITestsLaunchTests.swift */,
 			);
 			path = TutorialNavigationUITests;
+			sourceTree = "<group>";
+		};
+		ECCBD4972C55869E008684F4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD4982C5586A7008684F4 /* Island.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		ECCBD49A2C5586CA008684F4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD49B2C5586DF008684F4 /* NavigationCompass.swift */,
+				ECCBD49D2C5586F5008684F4 /* NavigationRoot.swift */,
+				ECCBD4AC2C55877F008684F4 /* HashableView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		ECCBD49F2C558702008684F4 /* Module B */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD4A22C558712008684F4 /* Interface */,
+				ECCBD4A32C558726008684F4 /* SomeCoordinator.swift */,
+				ECCBD4A52C55873B008684F4 /* IslandView.swift */,
+			);
+			path = "Module B";
+			sourceTree = "<group>";
+		};
+		ECCBD4A22C558712008684F4 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD4A02C55870F008684F4 /* SomeCoordinatorProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		ECCBD4A72C55874E008684F4 /* Module A */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD4A82C55875A008684F4 /* ContentViewModel.swift */,
+				ECCBD4AA2C55876A008684F4 /* ContentView.swift */,
+			);
+			path = "Module A";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC52D7272C3EC74400063316 /* Animals.json in Resources */,
 				EC082AAB2C2E0B8200A301E2 /* Preview Assets.xcassets in Resources */,
 				EC082AA72C2E0B8200A301E2 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC082AA52C2E0B8000A301E2 /* ContentView.swift in Sources */,
+				ECCBD49C2C5586DF008684F4 /* NavigationCompass.swift in Sources */,
+				ECCBD4A62C55873B008684F4 /* IslandView.swift in Sources */,
+				ECCBD4A42C558726008684F4 /* SomeCoordinator.swift in Sources */,
+				ECCBD49E2C5586F5008684F4 /* NavigationRoot.swift in Sources */,
+				ECCBD4A92C55875A008684F4 /* ContentViewModel.swift in Sources */,
+				ECCBD4AB2C55876A008684F4 /* ContentView.swift in Sources */,
 				EC082AA32C2E0B8000A301E2 /* TutorialNavigationApp.swift in Sources */,
+				ECCBD4A12C55870F008684F4 /* SomeCoordinatorProtocol.swift in Sources */,
+				ECCBD4992C5586A7008684F4 /* Island.swift in Sources */,
+				ECCBD4AD2C55877F008684F4 /* HashableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

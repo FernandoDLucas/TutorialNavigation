@@ -1,0 +1,25 @@
+{
+    "farmName": "Green Acres",
+    "animals": [
+        {
+            "_type": "cow",
+            "type": "cow",
+            "milkPerDay": 10,
+            "grassRequirements": 20
+        },
+        {
+            "_type": "dog",
+            "type": "dog",
+            "speed": 30,
+            "name": "Buddy",
+            "commandAbilities": ["sit", "fetch"]
+        },
+        {
+            "_type": "fish",
+            "type": "fish",
+            "weight": 5,
+            "swimmingSpeed": 15,
+            "scaleColor": "blue"
+        }
+    ]
+}
